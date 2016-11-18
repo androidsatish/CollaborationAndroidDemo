@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Branch added",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Hello",Toast.LENGTH_LONG).show();
             }
         });
 
