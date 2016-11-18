@@ -17,11 +17,20 @@
         android:id="@+id/textView" />
 
     <Button
-        android:text="@string/test"
+    android:text="@string/test"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="62dp"
+    android:id="@+id/button" />
+    <Button
+        android:text="@string/toast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp"
-        android:id="@+id/button" />
+
+        android:id="@+id/buttonToast" />
 </RelativeLayout>
