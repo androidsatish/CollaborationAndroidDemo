@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CollaborationAndroidDemo</string>
+    <string name="helloString">Hello World!</string>
+    <string name="test">Test</string>
 </resources>
